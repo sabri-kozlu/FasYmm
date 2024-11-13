@@ -13700,25 +13700,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\2NSenior\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\sabri\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2NSenior\\source\\repos\\WinUIFasYmmApp\\WinUIFasYmmApp\\WinUIFasYmmApp.csproj",
+      "projectUniqueName": "C:\\Users\\sabri\\Desktop\\FasWebAPI\\dev2ninovasyon\\WinUIFasYmmAppV1\\WinUIFasYmmApp\\WinUIFasYmmApp.csproj",
       "projectName": "WinUIFasYmmApp",
-      "projectPath": "C:\\Users\\2NSenior\\source\\repos\\WinUIFasYmmApp\\WinUIFasYmmApp\\WinUIFasYmmApp.csproj",
-      "packagesPath": "C:\\Users\\2NSenior\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2NSenior\\source\\repos\\WinUIFasYmmApp\\WinUIFasYmmApp\\obj\\",
+      "projectPath": "C:\\Users\\sabri\\Desktop\\FasWebAPI\\dev2ninovasyon\\WinUIFasYmmAppV1\\WinUIFasYmmApp\\WinUIFasYmmApp.csproj",
+      "packagesPath": "C:\\Users\\sabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sabri\\Desktop\\FasWebAPI\\dev2ninovasyon\\WinUIFasYmmAppV1\\WinUIFasYmmApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\2NSenior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

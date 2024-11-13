@@ -22,6 +22,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WinUIFasYmmApp
-build_property.ProjectDir = C:\Users\2NSenior\source\repos\WinUIFasYmmApp\WinUIFasYmmApp\
+build_property.ProjectDir = C:\Users\sabri\Desktop\FasWebAPI\dev2ninovasyon\WinUIFasYmmAppV1\WinUIFasYmmApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

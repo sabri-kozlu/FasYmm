@@ -20873,23 +20873,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\2NSenior\\.nuget\\packages\\": {},
+    "C:\\Users\\sabri\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2NSenior\\source\\repos\\WinUIFasYmmApp\\WinUIFasYmmApp (Package)\\WinUIFasYmmApp (Package).wapproj",
+      "projectUniqueName": "C:\\Users\\sabri\\Desktop\\FasWebAPI\\dev2ninovasyon\\WinUIFasYmmAppV1\\WinUIFasYmmApp (Package)\\WinUIFasYmmApp (Package).wapproj",
       "projectName": "WinUIFasYmmApp (Package)",
-      "projectPath": "C:\\Users\\2NSenior\\source\\repos\\WinUIFasYmmApp\\WinUIFasYmmApp (Package)\\WinUIFasYmmApp (Package).wapproj",
-      "packagesPath": "C:\\Users\\2NSenior\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2NSenior\\source\\repos\\WinUIFasYmmApp\\WinUIFasYmmApp (Package)\\obj\\",
+      "projectPath": "C:\\Users\\sabri\\Desktop\\FasWebAPI\\dev2ninovasyon\\WinUIFasYmmAppV1\\WinUIFasYmmApp (Package)\\WinUIFasYmmApp (Package).wapproj",
+      "packagesPath": "C:\\Users\\sabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sabri\\Desktop\\FasWebAPI\\dev2ninovasyon\\WinUIFasYmmAppV1\\WinUIFasYmmApp (Package)\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\2NSenior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -20904,8 +20904,8 @@
         "uap10.0.17763": {
           "targetAlias": "net451",
           "projectReferences": {
-            "C:\\Users\\2NSenior\\source\\repos\\WinUIFasYmmApp\\WinUIFasYmmApp\\WinUIFasYmmApp.csproj": {
-              "projectPath": "C:\\Users\\2NSenior\\source\\repos\\WinUIFasYmmApp\\WinUIFasYmmApp\\WinUIFasYmmApp.csproj"
+            "C:\\Users\\sabri\\Desktop\\FasWebAPI\\dev2ninovasyon\\WinUIFasYmmAppV1\\WinUIFasYmmApp\\WinUIFasYmmApp.csproj": {
+              "projectPath": "C:\\Users\\sabri\\Desktop\\FasWebAPI\\dev2ninovasyon\\WinUIFasYmmAppV1\\WinUIFasYmmApp\\WinUIFasYmmApp.csproj"
             }
           }
         }
@@ -20929,7 +20929,6 @@
           "net471",
           "net472",
           "net48",
-          "net481",
           "net8.0-windows10.0.19041",
           "net461"
         ],
@@ -20966,7 +20965,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'ColorCode.WinUI 2.0.13' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "message": "Package 'ColorCode.WinUI 2.0.13' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
       "libraryId": "ColorCode.WinUI",
       "targetGraphs": [
         "UAP,Version=v10.0.17763"
@@ -20976,7 +20975,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'CommunityToolkit.WinUI.Animations 8.0.230907' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "message": "Package 'CommunityToolkit.WinUI.Animations 8.0.230907' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
       "libraryId": "CommunityToolkit.WinUI.Animations",
       "targetGraphs": [
         "UAP,Version=v10.0.17763"
@@ -20986,7 +20985,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'CommunityToolkit.WinUI.Controls.Segmented 8.1.240916' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "message": "Package 'CommunityToolkit.WinUI.Controls.Segmented 8.1.240916' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
       "libraryId": "CommunityToolkit.WinUI.Controls.Segmented",
       "targetGraphs": [
         "UAP,Version=v10.0.17763"
@@ -20996,7 +20995,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'CommunityToolkit.WinUI.Controls.SettingsControls 8.0.230907' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "message": "Package 'CommunityToolkit.WinUI.Controls.SettingsControls 8.0.230907' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
       "libraryId": "CommunityToolkit.WinUI.Controls.SettingsControls",
       "targetGraphs": [
         "UAP,Version=v10.0.17763"
@@ -21006,7 +21005,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'CommunityToolkit.WinUI.Converters 8.0.230907' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "message": "Package 'CommunityToolkit.WinUI.Converters 8.0.230907' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
       "libraryId": "CommunityToolkit.WinUI.Converters",
       "targetGraphs": [
         "UAP,Version=v10.0.17763"
@@ -21016,7 +21015,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'CommunityToolkit.WinUI.Extensions 8.1.240916' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "message": "Package 'CommunityToolkit.WinUI.Extensions 8.1.240916' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
       "libraryId": "CommunityToolkit.WinUI.Extensions",
       "targetGraphs": [
         "UAP,Version=v10.0.17763"
@@ -21026,7 +21025,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'CommunityToolkit.WinUI.Helpers 8.0.230907' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "message": "Package 'CommunityToolkit.WinUI.Helpers 8.0.230907' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
       "libraryId": "CommunityToolkit.WinUI.Helpers",
       "targetGraphs": [
         "UAP,Version=v10.0.17763"
@@ -21036,7 +21035,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'CommunityToolkit.WinUI.Triggers 8.0.230907' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "message": "Package 'CommunityToolkit.WinUI.Triggers 8.0.230907' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
       "libraryId": "CommunityToolkit.WinUI.Triggers",
       "targetGraphs": [
         "UAP,Version=v10.0.17763"
@@ -21046,7 +21045,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Uno.Foundation.Logging 5.2.132' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "message": "Package 'Uno.Foundation.Logging 5.2.132' was restored using 'net8.0-windows10.0.19041, .NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net8.0-windows10.0.19041, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
       "libraryId": "Uno.Foundation.Logging",
       "targetGraphs": [
         "UAP,Version=v10.0.17763"
