@@ -1,0 +1,137 @@
+﻿<!--
+//*********************************************************
+//
+// Copyright (c) Microsoft. All rights reserved.
+// THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF
+// ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY
+// IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR
+// PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
+//
+//*********************************************************
+-->
+<Page x:ConnectionId='1' x:Class="WinUIFasYmmApp.ControlPages.SliderPage" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="using:WinUIFasYmmApp"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+
+    <!-- SIMPLE SLIDER -->
+    <StackPanel>
+        <local:ControlExample x:ConnectionId='2' x:Name="Example1" HeaderText="A simple Slider.">
+            <StackPanel Orientation="Horizontal">
+                <Slider x:ConnectionId='28' x:Name="Slider1" AutomationProperties.Name="simple slider" Width="200" />
+            </StackPanel>
+            <local:ControlExample.Output>
+                <TextBlock x:ConnectionId='29'                                                       />
+            </local:ControlExample.Output>
+            <local:ControlExample.Xaml>
+                <x:String>
+                    &lt;Slider AutomationProperties.Name="simple slider" Width="200"/&gt;
+                </x:String>
+            </local:ControlExample.Xaml>
+        </local:ControlExample>
+
+        <!-- SLIDER WITH RANGE AND STEPS -->
+        <local:ControlExample x:ConnectionId='3' x:Name="Example2" HeaderText="A Slider with range and steps specified.">
+            <local:ControlExample.Options>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto" MinWidth="80"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock x:ConnectionId='12' x:Name="MinimumLabel" Text="Minimum:" Margin="0,0,0,0" Grid.Row="0" Grid.Column="0"/>
+                    <NumberBox x:ConnectionId='13' x:Name="MinimumValue" Grid.Row="0" Grid.Column="1" Margin="10,-5,0,0" Value="500" SpinButtonPlacementMode="Compact" AutomationProperties.Name="Minimum" AutomationProperties.AccessibilityView="Raw"/>
+
+                    <TextBlock x:ConnectionId='14' x:Name="MaximumLabel" Text="Maximum:" Margin="0,7,0,0" Grid.Row="1" Grid.Column="0"/>
+                    <NumberBox x:ConnectionId='15' x:Name="MaximumValue" Grid.Row="1" Grid.Column="1" Margin="10,5,0,0" Value="1000" SpinButtonPlacementMode="Compact" AutomationProperties.Name="Maximum" AutomationProperties.AccessibilityView="Raw"/>
+
+                    <TextBlock x:ConnectionId='16' x:Name="StepFrequencyLabel" Text="StepFrequency:" Margin="0,5,0,0" Grid.Row="2" Grid.Column="0"/>
+                    <NumberBox x:ConnectionId='17' x:Name="StepFrequencyValue" Grid.Row="2" Grid.Column="1" Margin="10,5,0,0" Value="10" SpinButtonPlacementMode="Compact" AutomationProperties.Name="Step Frequency" AutomationProperties.AccessibilityView="Raw" Minimum="1"/>
+
+                    <TextBlock x:ConnectionId='18' x:Name="SmallChangeLabel" Text="SmallChange:" Margin="0,5,0,0" Grid.Row="3" Grid.Column="0"/>
+                    <NumberBox x:ConnectionId='19' x:Name="SmallChangeValue" Grid.Row="3" Grid.Column="1" Margin="10,5,0,0" Value="10" SpinButtonPlacementMode="Compact" AutomationProperties.Name="Small Change" AutomationProperties.AccessibilityView="Raw"/>
+                </Grid>
+            </local:ControlExample.Options>
+            <local:ControlExample.Example>
+                <StackPanel x:ConnectionId='20' x:Name="Control2" Orientation="Horizontal" VerticalAlignment="Center">
+                    <Slider x:ConnectionId='21' x:Name="Slider2" Header="Control header" Width="200"                                                   
+                                                                                                                                             
+                                                                                       Value="800" Margin="0,0,10,0"/>
+                </StackPanel>
+            </local:ControlExample.Example>
+            <local:ControlExample.Output>
+                <TextBlock x:ConnectionId='22'                                                      />
+            </local:ControlExample.Output>
+            <local:ControlExample.Xaml>
+                <x:String xml:space="preserve">
+&lt;Slider Width="200" Minimum="$(MinimumValue)" Maximum="$(MaximumValue)" StepFrequency="$(StepFrequencyValue)"
+        SmallChange="$(SmallChangeValue)" Value="$(Value)" /&gt;
+                </x:String>
+            </local:ControlExample.Xaml>
+            <local:ControlExample.Substitutions>
+                <local:ControlExampleSubstitution x:ConnectionId='23' Key="MinimumValue"                                                 />
+                <local:ControlExampleSubstitution x:ConnectionId='24' Key="MaximumValue"                                                 />
+                <local:ControlExampleSubstitution x:ConnectionId='25' Key="StepFrequencyValue"                                                       />
+                <local:ControlExampleSubstitution x:ConnectionId='26' Key="SmallChangeValue"                                                     />
+                <local:ControlExampleSubstitution x:ConnectionId='27' Key="Value"                                            />
+            </local:ControlExample.Substitutions>
+        </local:ControlExample>
+
+        <!-- SLIDER WITH TICK MARKS -->
+        <local:ControlExample x:ConnectionId='4' x:Name="Example3" HeaderText="A Slider with tick marks."> 
+            <StackPanel Orientation="Horizontal">
+                <Slider x:ConnectionId='8' x:Name="Slider3" Width="290" TickFrequency="20" TickPlacement="Outside" AutomationProperties.Name="Slider with ticks"/>
+            </StackPanel>
+            <local:ControlExample.Output>
+                <TextBlock x:ConnectionId='9'                                                       />
+            </local:ControlExample.Output>
+            <local:ControlExample.Options>
+                <StackPanel>
+                    <RadioButtons x:ConnectionId='10' x:Name="SnapsToRadioButtons"
+                            Header="Snaps to:" SelectedIndex="0"
+                                                                                   >
+                        <x:String>StepValues</x:String>
+                        <x:String>Ticks</x:String>
+                    </RadioButtons>
+                </StackPanel>
+            </local:ControlExample.Options>
+            <local:ControlExample.Xaml>
+                <x:String xml:space="preserve">
+&lt;Slider
+     AutomationProperties.Name="Slider with ticks"
+     TickFrequency="20"
+     TickPlacement="Outside"
+     SnapsTo="$(SnapsTo)" /&gt;
+                </x:String>
+            </local:ControlExample.Xaml>
+            <local:ControlExample.Substitutions>
+                <local:ControlExampleSubstitution x:ConnectionId='11' Key="SnapsTo"                                                               />
+            </local:ControlExample.Substitutions>
+        </local:ControlExample>
+
+        <!-- VERTICAL SLIDER -->
+        <local:ControlExample x:ConnectionId='5' x:Name="Example4" HeaderText="A vertical slider with range and tick marks specified.">
+            <StackPanel Orientation="Horizontal">
+                <Slider x:ConnectionId='6' x:Name="Slider4" Width="100" Height="100" Orientation="Vertical" TickFrequency="10" TickPlacement="Outside"
+                        Maximum="50" Minimum="-50" AutomationProperties.Name="vertical slider"/>
+            </StackPanel>
+            <local:ControlExample.Output>
+                <TextBlock x:ConnectionId='7'                                                       />
+            </local:ControlExample.Output>
+            <local:ControlExample.Xaml>
+                <x:String xml:space="preserve">
+&lt;Slider AutomationProperties.Name="vertical slider" Width="100" Orientation="Vertical"
+    TickFrequency="10" TickPlacement="Outside" Maximum="50" Minimum="-50"/&gt;
+                </x:String>
+            </local:ControlExample.Xaml>
+        </local:ControlExample>
+    </StackPanel>
+</Page>
+

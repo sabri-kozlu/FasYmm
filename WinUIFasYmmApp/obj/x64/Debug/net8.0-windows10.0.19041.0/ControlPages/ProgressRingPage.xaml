@@ -1,0 +1,80 @@
+﻿<!--
+//*********************************************************
+//
+// Copyright (c) Microsoft. All rights reserved.
+// THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF
+// ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY
+// IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR
+// PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
+//
+//*********************************************************
+-->
+<Page x:ConnectionId='1'
+    x:Class="WinUIFasYmmApp.ControlPages.ProgressRingPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WinUIFasYmmApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <StackPanel>
+        
+        <!-- INDETERMINATE PROGRESS RING -->
+        <local:ControlExample HeaderText="An indeterminate progress ring.">
+            <ProgressRing x:ConnectionId='8' x:Name="ProgressRing1"                                                      AutomationProperties.Name="Progress image" Height="60" Width="60" VerticalAlignment="Top" Margin="10,10,0,0"/>
+            <local:ControlExample.Options>
+                <StackPanel>
+                    <ToggleSwitch x:ConnectionId='9' x:Name="ProgressToggle" AutomationProperties.Name="Progress Options" Header="Progress Options" OffContent="Do work" OnContent="Working" IsOn="True" />
+                    <ComboBox x:ConnectionId='10' x:Name="BackgroundComboBox1"                                                 Header="Background color" PlaceholderText="Pick a color" Width="200">
+                        <x:String>Transparent</x:String>
+                        <x:String>LightGray</x:String>
+                    </ComboBox>
+                </StackPanel>
+            </local:ControlExample.Options>
+            <local:ControlExample.Xaml>
+                <x:String>
+                    &lt;ProgressRing IsActive="$(IsActive)" $(Background)/&gt;
+                </x:String>
+            </local:ControlExample.Xaml>
+            <local:ControlExample.Substitutions>
+                <local:ControlExampleSubstitution x:ConnectionId='11' Key="IsActive"                                                   />
+                <local:ControlExampleSubstitution x:ConnectionId='12' x:Name="RevealBackgroundProperty1" Key="Background" Value="Background=&quot;LightGray&quot;" />
+            </local:ControlExample.Substitutions>
+        </local:ControlExample>
+
+        <!-- DETERMINATE PROGRESS RING -->
+        <local:ControlExample HeaderText="A determinate progress ring.">
+            <StackPanel x:ConnectionId='2' x:Name="Control2" Orientation="Horizontal">
+                <ProgressRing x:ConnectionId='3' x:Name="ProgressRing2" Width="60" Height="60" AutomationProperties.Name="Progress image" IsIndeterminate="False" Margin="0,0,60,0"/>
+                <NumberBox x:ConnectionId='4' x:Name="ProgressValue"
+                    AutomationProperties.Name="Progress amount"
+                    Value="0" Minimum="0" Maximum="100"
+                    SpinButtonPlacementMode="Inline"
+                    MinWidth="120"
+                    Header="Progress"
+                                                             
+                    VerticalAlignment="Center"/>
+            </StackPanel>
+            <local:ControlExample.Options>
+                <StackPanel>
+                    <ComboBox x:ConnectionId='5' x:Name="BackgroundComboBox2"                                                 Header="Background color" PlaceholderText="Pick a color" Width="200">
+                        <x:String>Transparent</x:String>
+                        <x:String>LightGray</x:String>
+                    </ComboBox>
+                </StackPanel>
+            </local:ControlExample.Options>
+            <local:ControlExample.Xaml>
+                <x:String xml:space="preserve">
+&lt;ProgressRing Width="60" Height="60" Value="$(DeterminateProgressValue)"
+              IsIndeterminate="False"
+              $(Background)/&gt;
+                </x:String>
+            </local:ControlExample.Xaml>
+            <local:ControlExample.Substitutions>
+                <local:ControlExampleSubstitution x:ConnectionId='6' Key="DeterminateProgressValue"                                                   />
+                <local:ControlExampleSubstitution x:ConnectionId='7' x:Name="RevealBackgroundProperty2" Key="Background" Value="Background=&quot;LightGray&quot;" />
+            </local:ControlExample.Substitutions>
+        </local:ControlExample>
+    </StackPanel>
+</Page>
+

@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <None Update="App.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ConnectedAnimationPages\CardPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ConnectedAnimationPages\CollectionPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ConnectedAnimationPages\DetailedInfoPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\Accessibility\AccessibilityColorContrastPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\Accessibility\AccessibilityKeyboardPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\Accessibility\AccessibilityScreenReaderPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\AcrylicPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\AnimatedIconPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\AnimatedVisualPlayerPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\AnnotatedScrollBarPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\AppBarButtonPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\AppBarSeparatorPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\AppBarToggleButtonPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\AutoSuggestBoxPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\BorderPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\BreadcrumbBarPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ButtonPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\CalendarDatePickerPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\CalendarViewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\CanvasPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\CaptureElementPreviewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\CheckBoxPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ClipboardPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ColorPaletteResourcesPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ColorPickerPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ComboBoxPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\CommandBarFlyoutPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\CommandBarPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\CompactSizingPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\CompactSpacingPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ConnectedAnimationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ContentDialogContent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ContentDialogExample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ContentDialogPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\CreateMultipleWindowsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\DataGridPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\DatePickerPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\DesignGuidance\ColorPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\DesignGuidance\GeometryPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\DesignGuidance\IconographyPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\DesignGuidance\SpacingPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\DesignGuidance\TypographyPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\DropDownButtonPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\EasingFunctionPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ExpanderPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\FilePickerPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\FlipViewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\FlyoutPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\GridPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\GridViewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\HyperlinkButtonPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\IconElementPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ImagePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ImplicitTransitionPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\InfoBadgePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\InfoBarPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\InputValidationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ItemsRepeaterPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ItemsViewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\LinePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ListBoxPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ListViewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\MapControlPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\MediaPlayerElementPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\MenuBarPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\MenuFlyoutPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\NavigationViewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\NumberBoxPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\PageTransitionPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ParallaxViewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\PasswordBoxPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\PersonPicturePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\PipsPagerPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\PivotPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ProgressBarPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ProgressRingPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\PullToRefreshPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\RadialGradientBrushPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\RadioButtonPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\RadioButtonsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\RatingControlPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\RelativePanelPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\RepeatButtonPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\RevealFocusPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\RichEditBoxPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\RichTextBlockPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ScratchPadPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ScrollViewerPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ScrollViewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\SelectorBarPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\SemanticZoomPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ShapePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\SliderPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\SoundPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\SplitButtonPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\SplitViewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\StackPanelPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\StandardUICommandPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\SwipeControlPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\SystemBackdropsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\TabViewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\TeachingTipPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\TextBlockPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\TextBoxPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ThemeTransitionPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\TimePickerPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\TitleBarPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ToggleButtonPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ToggleSplitButtonPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ToggleSwitchPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ToolTipPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\TreeViewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\VariableSizedWrapGridPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\ViewboxPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\WebView2Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\XamlCompInteropPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ControlPages\XamlUICommandPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\ControlExample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\CopyButton\CopyButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\DesignGuidance\ColorPageExample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\DesignGuidance\ColorSections\BackgroundSection.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\DesignGuidance\ColorSections\FillSection.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\DesignGuidance\ColorSections\HighContrastSection.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\DesignGuidance\ColorSections\SignalSection.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\DesignGuidance\ColorSections\StrokeSection.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\DesignGuidance\ColorSections\TextSection.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\DesignGuidance\ColorTile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\DesignGuidance\TypographyControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\HeaderTile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\HomePageHeaderImage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\InlineColorPicker.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\PageHeader.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\SampleCodePresenter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\SampleThemeListener.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\TileGallery.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Navigation\NavigationRootPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SamplePages\SampleBuiltInSystemBackdropsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SamplePages\SampleCompactSizingPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SamplePages\SamplePage1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SamplePages\SamplePage2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SamplePages\SamplePage3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SamplePages\SamplePage4.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SamplePages\SamplePage5.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SamplePages\SamplePage6.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SamplePages\SamplePage7.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SamplePages\SampleSettingsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SamplePages\SampleStandardSizingPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SamplePages\SampleSystemBackdropsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TabViewPages\MyTabContentControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TabViewPages\TabViewWindowingSamplePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
