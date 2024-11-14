@@ -19,13 +19,13 @@
           "Microsoft.WindowsAppSDK": "1.6.241106002",
           "System.Private.Uri": "4.3.2",
           "Microsoft.Web.WebView2.Core.Projection": "1.0.2651.64",
-          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.53"
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.54"
         },
         "runtime": {
           "WinUIFasYmmApp.dll": {}
         }
       },
-      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.53": {
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.54": {
         "runtime": {
           "Microsoft.Windows.SDK.NET.dll": {
             "assemblyVersion": "10.0.19041.38",
@@ -1042,7 +1042,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.53": {
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.54": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""

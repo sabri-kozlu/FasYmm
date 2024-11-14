@@ -12,7 +12,8 @@
       "CSWINRT_ENABLE_ICUSTOMPROPERTYPROVIDER_SUPPORT": true,
       "CSWINRT_ENABLE_IREFERENCE_SUPPORT": true,
       "CSWINRT_ENABLE_IDYNAMICINTERFACECASTABLE": true,
-      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false
+      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false,
+      "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false
     }
   }
 }

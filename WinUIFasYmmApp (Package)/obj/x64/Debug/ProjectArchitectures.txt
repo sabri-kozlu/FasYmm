@@ -1,1 +1,1 @@
-C:\Users\sabri\Desktop\FasWebAPI\dev2ninovasyon\WinUIFasYmmAppV1\WinUIFasYmmApp (Package)\WinUIFasYmmApp (Package).wapproj;x64
+C:\Users\Sa\Desktop\WinUIFasYmmAppV1\WinUIFasYmmApp (Package)\WinUIFasYmmApp (Package).wapproj;x64
